@@ -1,7 +1,7 @@
 +++
 date = '2024-12-08T00:56:32+03:00'
 draft = false
-title = 'coreكيفية تتبع الأخطاء المتعلقه بالذاكره وإصلاحها بإستخدام ملفات ال'
+title = 'كيفية تتبع الأخطاء المتعلقه بالذاكره وإصلاحها'
 tags = ['programming', 'c/c++', 'tech']
  categories = ['programming', 'tech']
 
