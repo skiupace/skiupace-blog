@@ -1,6 +1,6 @@
 baseURL = 'https://skiupace.netlify.app/'
 languageCode = 'ar'
-title = 'Skiupace World!'
+title = 'Skiupace World'
 theme = 'PaperMod'
 
 [params]
