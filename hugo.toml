@@ -13,8 +13,8 @@ theme = 'PaperMod'
     linkFullImages = true
 
   [params.homeInfoParams]
-    Title = "أهلاً وسهلاً بك عزيزي القارئ في عالمي الصغير!."
-    Content = "Hello I'm Ahmed (aka @skiupace), I'm a Software Engineer, and a GNU/Linux Enthusiast."
+    Title = "!أهلاً وسهلاً بك عزيزي القارئ في عالمي الصغير"
+    Content = "أنا أحمد, مهندس برمجيات ومهووس بالتقنيه وبالأخص نظام التشغيل جنو/لينكس"
 
   [[params.socialIcons]]
     name = "X"
