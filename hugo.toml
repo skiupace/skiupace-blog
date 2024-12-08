@@ -43,14 +43,8 @@ name = 'Tags'
 url = '/tags/'
 weight = 30
 
-[[menu.main]]
-identifier = 'archives'
-name = 'Archives'
-url = '/archives/'
-weight = 40
-
 #[[menu.main]]
 #identifier = 'about-me'
 #name = 'About Me'
 #url = '/about-me/'
-#weight = 50
+#weight = 40
