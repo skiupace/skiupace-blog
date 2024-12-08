@@ -7,7 +7,7 @@ theme = 'PaperMod'
   rtlLanguages = ["ar"]
 
   ShowBreadCrumbs = true
-  ShowReadingTime = true
+  #ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
 
