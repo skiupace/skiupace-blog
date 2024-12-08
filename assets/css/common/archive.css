@@ -37,10 +37,6 @@
     font-weight: 400;
 }
 
-br {
-    color: var(--primary)
-}
-
 .archive-count,
 .archive-meta {
     color: var(--secondary);
