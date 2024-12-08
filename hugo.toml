@@ -6,10 +6,15 @@ theme = 'PaperMod'
 [params]
   rtlLanguages = ["ar"]
 
+  showtoc = true
+  comments = true
+  
   ShowBreadCrumbs = true
   #ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+
 
   [params.cover]
     linkFullImages = true
