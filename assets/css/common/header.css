@@ -1,7 +1,3 @@
-header {
-    display: flex;
-}
-
 [dir="rtl"] header {
     flex-direction: row-reverse;
 }
