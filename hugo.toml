@@ -1,5 +1,5 @@
 baseURL = 'https://skiupace.netlify.app/'
-languageCode = 'en-us'
+languageCode = 'ar'
 title = 'Skiupace World!'
 theme = 'PaperMod'
 
@@ -13,7 +13,7 @@ theme = 'PaperMod'
     linkFullImages = true
 
   [params.homeInfoParams]
-    Title = "Greetings, and Welcome to My Nerdy World!."
+    Title = "أهلاً وسهلاً بك عزيزي القارئ في عالمي الصغير!."
     Content = "Hello I'm Ahmed (aka @skiupace), I'm a Software Engineer, and a GNU/Linux Enthusiast."
 
   [[params.socialIcons]]
@@ -31,20 +31,14 @@ name = 'Categories'
 url = '/categories/'
 weight = 10
 
-#[[menu.main]]
-#identifier = 'blogs'
-#name = 'Blogs'
-#url = '/blogs/'
-#weight = 20
-
 [[menu.main]]
 identifier = 'tags'
 name = 'Tags'
 url = '/tags/'
-weight = 30
+weight = 20
 
 #[[menu.main]]
 #identifier = 'about-me'
 #name = 'About Me'
 #url = '/about-me/'
-#weight = 40
+#weight = 30
