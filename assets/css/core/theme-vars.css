@@ -22,9 +22,9 @@
     --entry: #1a1a2e;
     --primary: rgb(218, 218, 219);
     --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(24, 24, 56);
+    --tertiary: rgb(40, 40, 87);
     --content: rgb(196, 196, 197);
-    --code-block-bg: rgb(46, 46, 51);
+    --code-block-bg: rgb(35, 38, 73);
     --code-bg: #1e1e2e;
     --border: #1a1a2e;
 }
