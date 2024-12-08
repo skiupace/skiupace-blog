@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogs on Skiupace World</title>
-    <link>http://localhost:37065/blogs/</link>
+    <link>http://localhost:1313/blogs/</link>
     <description>Recent content in Blogs on Skiupace World</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>ar</language>
     <lastBuildDate>Sun, 08 Dec 2024 00:56:32 +0300</lastBuildDate>
-    <atom:link href="http://localhost:37065/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>كيفية تتبع الأخطاء المتعلقه بالذاكره وإصلاحها</title>
-      <link>http://localhost:37065/blogs/how-to-debug-memory-related-errors-using-core-files/</link>
+      <link>http://localhost:1313/blogs/how-to-debug-memory-related-errors-using-core-files/</link>
       <pubDate>Sun, 08 Dec 2024 00:56:32 +0300</pubDate>
-      <guid>http://localhost:37065/blogs/how-to-debug-memory-related-errors-using-core-files/</guid>
+      <guid>http://localhost:1313/blogs/how-to-debug-memory-related-errors-using-core-files/</guid>
       <description>&lt;p&gt;&lt;strong&gt;السلام عليكم ورحمة الله وبركاته. في أول مقالة تقنيه في مدونتي المتواضعه ✨.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;اليوم سنتحدث عن موضوع شيق في البرمجه ألا وهو كيفية عمل Debug لبرنامج لإقتناص الأخطاء المتعلقه بالذاكره (segmentation fault) بكلاً من (++C/C) عبر الإستعانه بملفات الـcore، سنشرح عنها، ماهي؟ وكيفية جعلها تتولد. هذا ماسنتعرف عليه في هذا المقال.. تابعوا معي.&lt;/p&gt;
 &lt;h2 id=&#34;ماهي-ملفات-الcore&#34;&gt;ماهي ملفات الCore؟&lt;/h2&gt;
