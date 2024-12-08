@@ -39,7 +39,7 @@
 </script>
 {{- end }}
 
-<header class="header" dir="{{ if eq .Lang "ar" }}rtl{{ else }}ltr{{ end }}">
+<header class="header" dir="{{ if in site.Params.rtlLanguages .Lang }}rtl{{ else }}ltr{{ end }}">
     <nav class="nav">
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
