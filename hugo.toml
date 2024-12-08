@@ -1,0 +1,56 @@
+baseURL = 'https://skiupace.net/'
+languageCode = 'en-us'
+title = 'Skiupace World!'
+theme = 'PaperMod'
+
+[params]
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+  [params.cover]
+    linkFullImages = true
+
+  [params.homeInfoParams]
+    Title = "Greetings, and Welcome to My Nerdy World!."
+    Content = "Hello I'm Ahmed (aka @skiupace), I'm a Software Engineer, and a GNU/Linux Enthusiast."
+
+  [[params.socialIcons]]
+    name = "X"
+    url = "https://x.com/skiupace"
+
+  [[params.socialIcons]]
+    name = "Github"
+    url = "https://github.com/skiupace"
+
+[menu]
+[[menu.main]]
+identifier = 'categories'
+name = 'Categories'
+url = '/categories/'
+weight = 10
+
+#[[menu.main]]
+#identifier = 'blogs'
+#name = 'Blogs'
+#url = '/blogs/'
+#weight = 20
+
+[[menu.main]]
+identifier = 'tags'
+name = 'Tags'
+url = '/tags/'
+weight = 30
+
+[[menu.main]]
+identifier = 'archives'
+name = 'Archives'
+url = '/archives/'
+weight = 40
+
+#[[menu.main]]
+#identifier = 'about-me'
+#name = 'About Me'
+#url = '/about-me/'
+#weight = 50
