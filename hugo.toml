@@ -1,4 +1,4 @@
-baseURL = 'https://skiupace.net/'
+baseURL = ''
 languageCode = 'en-us'
 title = 'Skiupace World!'
 theme = 'PaperMod'
