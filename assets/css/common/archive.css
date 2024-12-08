@@ -38,7 +38,7 @@
 }
 
 br {
-    color: var(--entry)
+    color: var(--primary)
 }
 
 .archive-count,
