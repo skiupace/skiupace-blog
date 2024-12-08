@@ -8,7 +8,16 @@ theme = 'PaperMod'
 
   showtoc = true
   comments = true
+
   enableSearch = true
+  [params.search]
+    limit = 10
+    [params.search.fuseOptions]
+      shouldSort = true
+      includeMatches = false
+      threshold = 0.4
+      tokenize = true
+      keys = ["title", "permalink", "summary", "content"]
 
   ShowBreadCrumbs = true
   #ShowReadingTime = true
