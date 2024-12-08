@@ -1,0 +1,96 @@
+<div id="search-container">
+    <input
+        id="search-input"
+        type="text"
+        placeholder="Search..."
+        aria-label="Search"
+        autocomplete="off"
+    />
+    <ul id="search-results"></ul>
+</div>
+
+<style>
+    #search-container {
+        position: relative;
+        max-width: 600px;
+        margin: 20px auto;
+    }
+
+    #search-input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    #search-results {
+        list-style: none;
+        margin: 10px 0 0;
+        padding: 0;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        max-height: 300px;
+        overflow-y: auto;
+        background: #fff;
+    }
+
+    #search-results li {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    #search-results li a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    #search-results li:last-child {
+        border-bottom: none;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const searchInput = document.getElementById("search-input");
+        const searchResults = document.getElementById("search-results");
+
+        fetch("/index.json")
+            .then((response) => response.json())
+            .then((data) => {
+                const fuse = new Fuse(data, {
+                    keys: ["title", "summary", "content"],
+                    threshold: 0.4,
+                });
+
+                searchInput.addEventListener("input", () => {
+                    const query = searchInput.value.trim();
+                    if (query) {
+                        const results = fuse.search(query);
+                        displayResults(results);
+                    } else {
+                        clearResults();
+                    }
+                });
+
+                function displayResults(results) {
+                    clearResults();
+                    results.slice(0, 10).forEach(({ item }) => {
+                        const li = document.createElement("li");
+                        const link = document.createElement("a");
+                        link.href = item.permalink;
+                        link.textContent = item.title || "Untitled";
+                        li.appendChild(link);
+                        searchResults.appendChild(li);
+                    });
+                }
+
+                function clearResults() {
+                    searchResults.innerHTML = "";
+                }
+            })
+            .catch((error) => {
+                console.error("Error loading search index:", error);
+            });
+    });
+</script>
