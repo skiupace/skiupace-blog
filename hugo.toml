@@ -3,6 +3,15 @@ languageCode = 'ar'
 title = 'Skiupace World'
 theme = 'PaperMod'
 
+[outputs]
+home = ["HTML", "JSON"]
+
+[outputFormats]
+[outputFormats.JSON]
+mediaType = "application/json"
+baseName = "index"
+isPlainText = true
+
 [params]
   rtlLanguages = ["ar"]
 
