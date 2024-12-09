@@ -2,7 +2,9 @@ baseURL = 'https://skiupace.netlify.app/'
 languageCode = 'ar'
 title = 'Skiupace World'
 theme = 'PaperMod'
-outputs = ["HTML", "JSON"]
+
+[outputs]
+home = ["HTML", "JSON"]
 
 [outputFormats]
 [outputFormats.JSON]
