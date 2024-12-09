@@ -14,8 +14,7 @@ theme = 'PaperMod'
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
 
-  enableSearch = true
-  isSearch = true
+  #enableSearch = true
 
   [params.cover]
     linkFullImages = true
@@ -44,6 +43,12 @@ identifier = 'tags'
 name = 'Tags'
 url = '/tags/'
 weight = 20
+
+[[menu.main]]
+identifier = 'search'
+name = 'Search'
+url = '/search/'
+weight = 30
 
 #[[menu.main]]
 #identifier = 'about-me'
