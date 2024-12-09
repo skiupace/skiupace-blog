@@ -15,6 +15,7 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
 
   enableSearch = true
+  searchHidden = false
 
   [params.cover]
     linkFullImages = true
