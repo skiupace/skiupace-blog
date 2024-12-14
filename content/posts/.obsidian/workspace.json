@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "how-to-debug-memory-related-errors-using-core-files.md",
+                "file": "how-to-install-and-setup-wsl.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "how-to-debug-memory-related-errors-using-core-files"
+              "title": "how-to-install-and-setup-wsl"
             }
           }
         ]
@@ -163,5 +163,9 @@
     }
   },
   "active": "9bdd21eeeab327dd",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "how-to-debug-memory-related-errors-using-core-files.md",
+    "how-to-install-and-setup-wsl.md",
+    "how-to-setup-a-development-envierment-in-wsl.md"
+  ]
 }
