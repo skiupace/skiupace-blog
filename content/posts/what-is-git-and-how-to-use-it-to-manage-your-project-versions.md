@@ -58,7 +58,7 @@ git commit -m "commit message"
 الـ"-m" التي في الأمر السابق هو "flag" يُشير إلى الرسالة الخاصه بالعمليه "أي لتوضيح ماتم إضافته او تعديله".
 
 وسيبدو الأمر بعد تنفيذ كل ماسبق هكذا :
-![example output](posts-images/git-post-images/example-output.png)
+![example output](../../posts-images/git-post-images/example-output.png)
 
 ---
 ## للتراجع عن تعديلات معينه
@@ -74,7 +74,7 @@ git revert HEAD --no-edit
 ```
 
 صوره توضح العمليه :
-![revert commits](posts-images/git-post-images/revert-commits.png)
+![revert commits](../../posts-images/git-post-images/revert-commits.png)
 
 ---
 ## الخاتمه
