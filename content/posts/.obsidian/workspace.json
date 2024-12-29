@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "how-to-install-and-setup-wsl.md",
-                "mode": "preview",
+                "file": "what-is-git-and-how-to-use-it-to-manage-your-project-versions.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "how-to-install-and-setup-wsl"
+              "title": "what-is-git-and-how-to-use-it-to-manage-your-project-versions"
             }
           }
         ]
@@ -164,9 +164,9 @@
   },
   "active": "9bdd21eeeab327dd",
   "lastOpenFiles": [
-    "how-to-debug-memory-related-errors-using-core-files.md",
-    "what-is-git-and-how-to-use-it-to-manage-your-project-versions.md",
     "how-to-install-and-setup-wsl.md",
+    "what-is-git-and-how-to-use-it-to-manage-your-project-versions.md",
+    "how-to-debug-memory-related-errors-using-core-files.md",
     "posts-images/git-post-images/revert-commits.png",
     "posts-images/git-post-images/example-output.png",
     "posts-images/git-post-images/1735083342_grim.png",
