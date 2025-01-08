@@ -7,7 +7,7 @@ tags = ['programming', 'tech']
 categories = ['programming', 'tech']
 
 [cover] 
-image = "cover-images/git-post/git-post.jpeg" 
+image = "cover-images/git-post/git-post.png" 
 alt = "Cover Image"
 +++
 
