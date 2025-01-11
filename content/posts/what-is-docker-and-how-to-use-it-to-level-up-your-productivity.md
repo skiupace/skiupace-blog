@@ -7,7 +7,7 @@ tags = ['programming', 'tech']
 categories = ['programming', 'tech']
 
 [cover] 
-image = "cover-images/docker-post/docker-post.png" 
+image = "cover-images/docker-post/docker-post.jpg"
 alt = "Cover Image"
 +++
 
